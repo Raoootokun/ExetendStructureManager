@@ -19,7 +19,7 @@ structure.id; //"data_1"
 
 ExetendStructureManager.getAllIds(); //["data_1"]
 
-ExetendStructureManager.delete(""data_1""); //true
+ExetendStructureManager.delete("data_1"); //true
 ```
 
 ## Method
