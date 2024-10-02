@@ -101,9 +101,8 @@ export class ExetendStructureManager {
                     structureManager.createFromWorld(id, dimension, startLoca, endLoca, { saveMode:"Memory" });
                      
                 };
-            }
+            };
         };
-        return true;
     };
 
     /**
