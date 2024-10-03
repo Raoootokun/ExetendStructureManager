@@ -1,6 +1,5 @@
 # ExetendStructureManager
-ScriptAPIの`structureManager`ではサイズの上限が64 * 384 * 64です。  
-この上限を無限にします。
+ScriptAPI上でストラクチャの保存可能サイズを無限にします。
 
 ## 使い方
 
