@@ -10,8 +10,8 @@ import { ExetendStructureManager } from "./ExetendStructureManager.js";
 
 const dimension = world.getDimension("overworld");
 
-ExetendStructureManager.save("data_1", dimension, { x:0, y:0, z:0 }, { x:200, y:50, z:200 });
-ExetendStructureManager.place("data_1", dimension, { x:10, y:0, z:10 });
+ExetendStructureManager.save("data_1", dimension, { x:0, y:0, z:0 }, { x:200, y:50, z:200 }); //undefined
+ExetendStructureManager.place("data_1", dimension, { x:10, y:0, z:10 }); //undefined
 
 const structure = ExetendStructureManager.get("data_1"); //data_1
 structure.size; //{ x:200, y:50, z:200 }
